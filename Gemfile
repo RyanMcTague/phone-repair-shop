@@ -79,3 +79,5 @@ gem "hashid-rails", "~> 1.4"
 gem "state_machines", "~> 0.5.0"
 
 gem "devise", "~> 4.8"
+
+gem "letter_opener", "~> 1.8"
