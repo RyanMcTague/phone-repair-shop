@@ -77,3 +77,5 @@ end
 gem "hashid-rails", "~> 1.4"
 
 gem "state_machines", "~> 0.5.0"
+
+gem "devise", "~> 4.8"
