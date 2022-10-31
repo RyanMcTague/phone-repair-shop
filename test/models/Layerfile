@@ -1,0 +1,3 @@
+FROM /Layerfile
+COPY . .
+RUN bundle exec rails test:models
