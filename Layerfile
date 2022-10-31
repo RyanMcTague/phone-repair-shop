@@ -36,6 +36,7 @@ RUN sudo -u postgres -H -- psql -t -c "CREATE DATABASE mydb;"
 RUN sudo -u postgres -H -- psql -c "ALTER ROLE root WITH PASSWORD 'password';"
 
 # Copy your rails app into the runner
+WORKDIR /app
 COPY . .
 
 # set up database
@@ -51,7 +52,5 @@ RUN echo -e 'development:\n\
 RUN bundle install
 RUN bundle exec rake db:migrate
 RUN bundle exec rake db:setup
+RUN bundle exec rail test:models
 
-# Start the server
-RUN BACKGROUND rails server --binding 0.0.0.0
-EXPOSE WEBSITE localhost:3000
