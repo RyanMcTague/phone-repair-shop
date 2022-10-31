@@ -23,7 +23,7 @@ RUN echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 RUN git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 RUN echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
 
-RUN rbenv install 2.7.1
+RUN rbenv install 3.1.2
 ENV PATH=$HOME/.rbenv/versions/2.7.1/bin:$PATH
 
 RUN gem install pg rails
