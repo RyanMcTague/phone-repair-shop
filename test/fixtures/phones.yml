@@ -1,15 +1,91 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  user: one
-  name: MyString
-  type: 
-  problem: MyText
-  state: MyString
-
-two:
-  user: two
-  name: MyString
-  type: 
-  problem: MyText
-  state: MyString
+---
+phone_1:
+  id: 1
+  user_id: 2
+  name: Phone Pending
+  phone_type: IPhone 14
+  problem: Vero adipisci qui provident.
+  state: pending
+  created_at: 2022-10-31 14:27:49.186405000 Z
+  updated_at: 2022-10-31 14:27:49.186405000 Z
+phone_2:
+  id: 2
+  user_id: 2
+  name: Phone Approved
+  phone_type: IPhone 14
+  problem: Quaerat exercitationem accusamus repellendus.
+  state: approved
+  created_at: 2022-10-31 14:27:49.193156000 Z
+  updated_at: 2022-10-31 14:27:49.193156000 Z
+phone_3:
+  id: 3
+  user_id: 2
+  name: Phone Shipping
+  phone_type: IPhone 14
+  problem: Mollitia voluptatem totam consectetur.
+  state: shipping
+  created_at: 2022-10-31 14:27:49.199130000 Z
+  updated_at: 2022-10-31 14:27:49.199130000 Z
+phone_4:
+  id: 4
+  user_id: 2
+  name: Phone Arrived
+  phone_type: IPhone 14
+  problem: Dolorum ut laborum et.
+  state: arrived
+  created_at: 2022-10-31 14:27:49.205037000 Z
+  updated_at: 2022-10-31 14:27:49.205037000 Z
+phone_5:
+  id: 5
+  user_id: 2
+  name: Phone Evaluating
+  phone_type: IPhone 14
+  problem: Commodi modi fugiat aspernatur.
+  state: evaluating
+  created_at: 2022-10-31 14:27:49.210833000 Z
+  updated_at: 2022-10-31 14:27:49.210833000 Z
+phone_6:
+  id: 6
+  user_id: 2
+  name: Phone Analysis Sent
+  phone_type: IPhone 14
+  problem: Qui mollitia nostrum veritatis.
+  state: analysis_sent
+  created_at: 2022-10-31 14:27:49.216632000 Z
+  updated_at: 2022-10-31 14:27:49.216632000 Z
+phone_7:
+  id: 7
+  user_id: 2
+  name: Phone Analysis Accepted
+  phone_type: IPhone 14
+  problem: Ipsum odit quod architecto.
+  state: analysis_accepted
+  created_at: 2022-10-31 14:27:49.222370000 Z
+  updated_at: 2022-10-31 14:27:49.222370000 Z
+phone_8:
+  id: 8
+  user_id: 2
+  name: Phone Fixing
+  phone_type: IPhone 14
+  problem: Dolorem ut eos rerum.
+  state: fixing
+  created_at: 2022-10-31 14:27:49.227931000 Z
+  updated_at: 2022-10-31 14:27:49.227931000 Z
+phone_9:
+  id: 9
+  user_id: 2
+  name: Phone Awaiting Shipment
+  phone_type: IPhone 14
+  problem: Impedit rerum natus autem.
+  state: awaiting_shipment
+  created_at: 2022-10-31 14:27:49.233441000 Z
+  updated_at: 2022-10-31 14:27:49.233441000 Z
+phone_10:
+  id: 10
+  user_id: 2
+  name: Phone Completed
+  phone_type: IPhone 14
+  problem: Consequatur quo quis itaque.
+  state: completed
+  created_at: 2022-10-31 14:27:49.239730000 Z
+  updated_at: 2022-10-31 14:27:49.239730000 Z

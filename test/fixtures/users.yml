@@ -1,11 +1,28 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-# This model initially had no columns defined. If you add columns to the
-# model remove the "{}" from the fixture names and add the columns immediately
-# below each fixture, per the syntax in the comments below
-#
-one: {}
-# column: value
-#
-two: {}
-# column: value
+---
+user_1:
+  id: 1
+  email: admin@example.com
+  encrypted_password: "$2a$12$hqblfzT8lMlHxBpjieGQP.b0/Fn7JSJUKkyiq9.QDLPes6jAw7v9K"
+  reset_password_token:
+  reset_password_sent_at:
+  remember_created_at:
+  created_at: 2022-10-31 14:27:48.563305000 Z
+  updated_at: 2022-10-31 14:27:48.563305000 Z
+user_2:
+  id: 2
+  email: user_one@example.com
+  encrypted_password: "$2a$12$o4f1uR7WdMCOCoddvZKbeuRbBkbHan8GqTpN6Q23.PW37UaShUiye"
+  reset_password_token:
+  reset_password_sent_at:
+  remember_created_at:
+  created_at: 2022-10-31 14:27:48.833654000 Z
+  updated_at: 2022-10-31 14:27:48.833654000 Z
+user_3:
+  id: 3
+  email: user_two@example.com
+  encrypted_password: "$2a$12$QRmFR1ja1gCtmZD.8AwSPu29QF6MndLIbwxX36jfl6RiZARUlO4m."
+  reset_password_token:
+  reset_password_sent_at:
+  remember_created_at:
+  created_at: 2022-10-31 14:27:49.075681000 Z
+  updated_at: 2022-10-31 14:27:49.075681000 Z

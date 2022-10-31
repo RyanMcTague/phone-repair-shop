@@ -85,3 +85,5 @@ gem "letter_opener", "~> 1.8"
 gem "faker", "~> 2.23"
 
 gem "state_machines-activerecord", "~> 0.8.0"
+
+gem "rolify", "~> 6.0"

@@ -1,0 +1,78 @@
+---
+role_1:
+  id: 1
+  name: staff
+  resource_type:
+  resource_id:
+  created_at: 2022-10-31 14:27:48.576288000 Z
+  updated_at: 2022-10-31 14:27:48.576288000 Z
+role_2:
+  id: 2
+  name: phone_owner
+  resource_type: Phone
+  resource_id: 1
+  created_at: 2022-10-31 14:27:49.188543000 Z
+  updated_at: 2022-10-31 14:27:49.188543000 Z
+role_3:
+  id: 3
+  name: phone_owner
+  resource_type: Phone
+  resource_id: 2
+  created_at: 2022-10-31 14:27:49.194723000 Z
+  updated_at: 2022-10-31 14:27:49.194723000 Z
+role_4:
+  id: 4
+  name: phone_owner
+  resource_type: Phone
+  resource_id: 3
+  created_at: 2022-10-31 14:27:49.200686000 Z
+  updated_at: 2022-10-31 14:27:49.200686000 Z
+role_5:
+  id: 5
+  name: phone_owner
+  resource_type: Phone
+  resource_id: 4
+  created_at: 2022-10-31 14:27:49.206552000 Z
+  updated_at: 2022-10-31 14:27:49.206552000 Z
+role_6:
+  id: 6
+  name: phone_owner
+  resource_type: Phone
+  resource_id: 5
+  created_at: 2022-10-31 14:27:49.212331000 Z
+  updated_at: 2022-10-31 14:27:49.212331000 Z
+role_7:
+  id: 7
+  name: phone_owner
+  resource_type: Phone
+  resource_id: 6
+  created_at: 2022-10-31 14:27:49.218127000 Z
+  updated_at: 2022-10-31 14:27:49.218127000 Z
+role_8:
+  id: 8
+  name: phone_owner
+  resource_type: Phone
+  resource_id: 7
+  created_at: 2022-10-31 14:27:49.223701000 Z
+  updated_at: 2022-10-31 14:27:49.223701000 Z
+role_9:
+  id: 9
+  name: phone_owner
+  resource_type: Phone
+  resource_id: 8
+  created_at: 2022-10-31 14:27:49.229248000 Z
+  updated_at: 2022-10-31 14:27:49.229248000 Z
+role_10:
+  id: 10
+  name: phone_owner
+  resource_type: Phone
+  resource_id: 9
+  created_at: 2022-10-31 14:27:49.234801000 Z
+  updated_at: 2022-10-31 14:27:49.234801000 Z
+role_11:
+  id: 11
+  name: phone_owner
+  resource_type: Phone
+  resource_id: 10
+  created_at: 2022-10-31 14:27:49.241054000 Z
+  updated_at: 2022-10-31 14:27:49.241054000 Z

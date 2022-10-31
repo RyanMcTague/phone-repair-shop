@@ -1,4 +1,5 @@
 class Phone < ApplicationRecord
+  resourcify
   belongs_to :user
   
   validates :name, 
@@ -12,14 +13,12 @@ class Phone < ApplicationRecord
       maximum: 25
     }
     
-  validates :phone_type, 
-    presence: true
+  validates :phone_type, presence: true
   
-  validates :problem, 
-    presence: true
+  validates :problem, presence: true
 
-  before_destroy do
-    self.errors.add(:base, "cannot delete a phone that is not pending") if self.pending?    
+  after_create do
+    self.user.add_role(:phone_owner, self)
   end
 
   state_machine :state, initial: :pending do
@@ -32,6 +31,7 @@ class Phone < ApplicationRecord
     state :analysis_accepted
     state :fixing
     state :awaiting_shipment
+    state :completed 
 
     event :reset do
       transition any - :pending => :pending
@@ -68,5 +68,17 @@ class Phone < ApplicationRecord
     event :await_shipment do
       transition [:accepted, :fixing] => :awaiting_shipment
     end
+
+    event :complete do
+      transition :shipping => :completed
+    end
+  end
+
+  def can_update?
+    self.pending? 
+  end
+
+  def can_destroy?
+    self.pending? || self.completed?
   end
 end

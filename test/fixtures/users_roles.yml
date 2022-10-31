@@ -1,0 +1,34 @@
+---
+users_role_001:
+  user_id: 1
+  role_id: 1
+users_role_002:
+  user_id: 2
+  role_id: 2
+users_role_003:
+  user_id: 2
+  role_id: 3
+users_role_004:
+  user_id: 2
+  role_id: 4
+users_role_005:
+  user_id: 2
+  role_id: 5
+users_role_006:
+  user_id: 2
+  role_id: 6
+users_role_007:
+  user_id: 2
+  role_id: 7
+users_role_008:
+  user_id: 2
+  role_id: 8
+users_role_009:
+  user_id: 2
+  role_id: 9
+users_role_010:
+  user_id: 2
+  role_id: 10
+users_role_011:
+  user_id: 2
+  role_id: 11

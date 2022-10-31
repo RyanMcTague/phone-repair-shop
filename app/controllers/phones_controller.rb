@@ -1,0 +1,3 @@
+class PhonesController < ApplicationController
+  
+end
